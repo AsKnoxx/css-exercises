@@ -38,23 +38,39 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0 16px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
+  padding: 0 16px;
 }
 
 ul {
   padding: 0;
   display: flex;
   gap: 10px;
-  margin: 16px;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.input {
+  margin: 15px 0;
+}
+
+button {
+  padding: 8px;
 }
