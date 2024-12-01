@@ -34,6 +34,27 @@ a {
   color: rgb(184, 178, 178);
 }
 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
 ul {
   padding: 0;
+  display: flex;
+  gap: 10px;
+  margin: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
