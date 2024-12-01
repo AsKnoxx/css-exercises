@@ -24,3 +24,16 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(184, 178, 178);
+}
+
+ul {
+  padding: 0;
+}
