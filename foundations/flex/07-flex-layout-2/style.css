@@ -55,6 +55,7 @@ body {
 
 .sidebar {
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .header {
@@ -63,4 +64,24 @@ body {
   display: flex;
   align-items: center;
   padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
